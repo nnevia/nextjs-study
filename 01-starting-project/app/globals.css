@@ -159,9 +159,16 @@ main {
 }
 
 .post img {
+  object-fit: cover;
   width: 8rem;
   height: 6rem;
-  object-fit: cover;
+}
+
+.post-image {
+  position: relative;
+  width: 8rem;
+  /* 요소의 너비를 8rem으로 설정 */
+  height: 6rem;
 }
 
 .post-content {

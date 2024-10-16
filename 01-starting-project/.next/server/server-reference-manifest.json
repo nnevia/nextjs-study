@@ -1,1 +1,26 @@
-{"node":{"64ce4c97602297534daab8a9b5375445b034527c":{"workers":{"app/new-post/page":9558,"app/feed/page":7972,"app/page":7972},"layer":{"app/new-post/page":"rsc","app/feed/page":"action-browser","app/page":"action-browser"}},"df4b02f03ffcb84960ee8927737bfdce19bcaf28":{"workers":{"app/new-post/page":9558,"app/feed/page":7972,"app/page":7972},"layer":{"app/new-post/page":"rsc","app/feed/page":"action-browser","app/page":"action-browser"}}},"edge":{},"encryptionKey":"dOcuKa50BKu3NNBJDlmmfF4H8cVkHmI4fDQlLaAsEMk="}
+{
+  "node": {
+    "64ce4c97602297534daab8a9b5375445b034527c": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Cstudy%5C%5Cnext_udemy%5C%5C01-starting-project%5C%5Cactions%5C%5Cposts.js%22%2C%5B%22togglePostLikeStatus%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
+        "app/feed/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Cstudy%5C%5Cnext_udemy%5C%5C01-starting-project%5C%5Cactions%5C%5Cposts.js%22%2C%5B%22togglePostLikeStatus%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/feed/page": "action-browser"
+      }
+    },
+    "df4b02f03ffcb84960ee8927737bfdce19bcaf28": {
+      "workers": {
+        "app/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Cstudy%5C%5Cnext_udemy%5C%5C01-starting-project%5C%5Cactions%5C%5Cposts.js%22%2C%5B%22togglePostLikeStatus%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!",
+        "app/feed/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22D%3A%5C%5Cstudy%5C%5Cnext_udemy%5C%5C01-starting-project%5C%5Cactions%5C%5Cposts.js%22%2C%5B%22togglePostLikeStatus%22%2C%22createPost%22%5D%5D%5D&__client_imported__=true!"
+      },
+      "layer": {
+        "app/page": "action-browser",
+        "app/feed/page": "action-browser"
+      }
+    }
+  },
+  "edge": {},
+  "encryptionKey": "yOJERqvdDF1FLg4L135f8fvO6SaCVWSSk15X3NEf+90="
+}
