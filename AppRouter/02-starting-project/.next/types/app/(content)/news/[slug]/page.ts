@@ -1,8 +1,8 @@
-// File: D:\study\next_udemy\AppRouter\02-starting-project\app\(marketing)\page.js
-import * as entry from '../../../../app/(marketing)/page.js'
+// File: D:\study\next_udemy\AppRouter\02-starting-project\app\(content)\news\[slug]\page.js
+import * as entry from '../../../../../../app/(content)/news/[slug]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../app/(marketing)/page.js')
+type TEntry = typeof import('../../../../../../app/(content)/news/[slug]/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

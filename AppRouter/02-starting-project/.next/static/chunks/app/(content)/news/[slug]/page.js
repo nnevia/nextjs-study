@@ -6,26 +6,15 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/(marketing)/page"],{
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/(content)/news/[slug]/page"],{
 
-/***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5Cstudy%5Cnext_udemy%5CAppRouter%5C02-starting-project%5Cassets%5Clogo.jpg&modules=D%3A%5Cstudy%5Cnext_udemy%5CAppRouter%5C02-starting-project%5Cnode_modules%5Cnext%5Cdist%5Cclient%5Clink.js&server=false!":
-/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5Cstudy%5Cnext_udemy%5CAppRouter%5C02-starting-project%5Cassets%5Clogo.jpg&modules=D%3A%5Cstudy%5Cnext_udemy%5CAppRouter%5C02-starting-project%5Cnode_modules%5Cnext%5Cdist%5Cclient%5Clink.js&server=false! ***!
-  \*******************************************************************************************************************************************************************************************************************************************************************************************************************/
+/***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5Cstudy%5Cnext_udemy%5CAppRouter%5C02-starting-project%5Cnode_modules%5Cnext%5Cdist%5Cclient%5Clink.js&server=false!":
+/*!***************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5Cstudy%5Cnext_udemy%5CAppRouter%5C02-starting-project%5Cnode_modules%5Cnext%5Cdist%5Cclient%5Clink.js&server=false! ***!
+  \***************************************************************************************************************************************************************************************************************************/
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
-eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./assets/logo.jpg */ \"(app-pages-browser)/./assets/logo.jpg\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/link.js */ \"(app-pages-browser)/./node_modules/next/dist/client/link.js\", 23))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvYnVpbGQvd2VicGFjay9sb2FkZXJzL25leHQtZmxpZ2h0LWNsaWVudC1lbnRyeS1sb2FkZXIuanM/bW9kdWxlcz1EJTNBJTVDc3R1ZHklNUNuZXh0X3VkZW15JTVDQXBwUm91dGVyJTVDMDItc3RhcnRpbmctcHJvamVjdCU1Q2Fzc2V0cyU1Q2xvZ28uanBnJm1vZHVsZXM9RCUzQSU1Q3N0dWR5JTVDbmV4dF91ZGVteSU1Q0FwcFJvdXRlciU1QzAyLXN0YXJ0aW5nLXByb2plY3QlNUNub2RlX21vZHVsZXMlNUNuZXh0JTVDZGlzdCU1Q2NsaWVudCU1Q2xpbmsuanMmc2VydmVyPWZhbHNlISIsIm1hcHBpbmdzIjoiQUFBQSw0SkFBNEc7QUFDNUciLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLz8xMDU2Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiRDpcXFxcc3R1ZHlcXFxcbmV4dF91ZGVteVxcXFxBcHBSb3V0ZXJcXFxcMDItc3RhcnRpbmctcHJvamVjdFxcXFxhc3NldHNcXFxcbG9nby5qcGdcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIkQ6XFxcXHN0dWR5XFxcXG5leHRfdWRlbXlcXFxcQXBwUm91dGVyXFxcXDAyLXN0YXJ0aW5nLXByb2plY3RcXFxcbm9kZV9tb2R1bGVzXFxcXG5leHRcXFxcZGlzdFxcXFxjbGllbnRcXFxcbGluay5qc1wiKSJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5Cstudy%5Cnext_udemy%5CAppRouter%5C02-starting-project%5Cassets%5Clogo.jpg&modules=D%3A%5Cstudy%5Cnext_udemy%5CAppRouter%5C02-starting-project%5Cnode_modules%5Cnext%5Cdist%5Cclient%5Clink.js&server=false!\n"));
-
-/***/ }),
-
-/***/ "(app-pages-browser)/./assets/logo.jpg":
-/*!*************************!*\
-  !*** ./assets/logo.jpg ***!
-  \*************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval(__webpack_require__.ts("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = ({\"src\":\"/_next/static/media/logo.881cd247.jpg\",\"height\":592,\"width\":592,\"blurDataURL\":\"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.881cd247.jpg&w=8&q=70\",\"blurWidth\":8,\"blurHeight\":8});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL2Fzc2V0cy9sb2dvLmpwZyIsIm1hcHBpbmdzIjoiO0FBQUEsK0RBQWUsQ0FBQyw0TEFBNEwiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9fTl9FLy4vYXNzZXRzL2xvZ28uanBnPzI2NjgiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQge1wic3JjXCI6XCIvX25leHQvc3RhdGljL21lZGlhL2xvZ28uODgxY2QyNDcuanBnXCIsXCJoZWlnaHRcIjo1OTIsXCJ3aWR0aFwiOjU5MixcImJsdXJEYXRhVVJMXCI6XCIvX25leHQvaW1hZ2U/dXJsPSUyRl9uZXh0JTJGc3RhdGljJTJGbWVkaWElMkZsb2dvLjg4MWNkMjQ3LmpwZyZ3PTgmcT03MFwiLFwiYmx1cldpZHRoXCI6OCxcImJsdXJIZWlnaHRcIjo4fTsiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(app-pages-browser)/./assets/logo.jpg\n"));
+eval(__webpack_require__.ts("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/link.js */ \"(app-pages-browser)/./node_modules/next/dist/client/link.js\", 23))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvYnVpbGQvd2VicGFjay9sb2FkZXJzL25leHQtZmxpZ2h0LWNsaWVudC1lbnRyeS1sb2FkZXIuanM/bW9kdWxlcz1EJTNBJTVDc3R1ZHklNUNuZXh0X3VkZW15JTVDQXBwUm91dGVyJTVDMDItc3RhcnRpbmctcHJvamVjdCU1Q25vZGVfbW9kdWxlcyU1Q25leHQlNUNkaXN0JTVDY2xpZW50JTVDbGluay5qcyZzZXJ2ZXI9ZmFsc2UhIiwibWFwcGluZ3MiOiJBQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vX05fRS8/ZGMwMiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIkQ6XFxcXHN0dWR5XFxcXG5leHRfdWRlbXlcXFxcQXBwUm91dGVyXFxcXDAyLXN0YXJ0aW5nLXByb2plY3RcXFxcbm9kZV9tb2R1bGVzXFxcXG5leHRcXFxcZGlzdFxcXFxjbGllbnRcXFxcbGluay5qc1wiKSJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5Cstudy%5Cnext_udemy%5CAppRouter%5C02-starting-project%5Cnode_modules%5Cnext%5Cdist%5Cclient%5Clink.js&server=false!\n"));
 
 /***/ }),
 
@@ -241,7 +230,7 @@ eval(__webpack_require__.ts("\nObject.defineProperty(exports, \"__esModule\", ({
 },
 /******/ function(__webpack_require__) { // webpackRuntimeModules
 /******/ var __webpack_exec__ = function(moduleId) { return __webpack_require__(__webpack_require__.s = moduleId); }
-/******/ __webpack_require__.O(0, ["main-app"], function() { return __webpack_exec__("(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5Cstudy%5Cnext_udemy%5CAppRouter%5C02-starting-project%5Cassets%5Clogo.jpg&modules=D%3A%5Cstudy%5Cnext_udemy%5CAppRouter%5C02-starting-project%5Cnode_modules%5Cnext%5Cdist%5Cclient%5Clink.js&server=false!"); });
+/******/ __webpack_require__.O(0, ["main-app"], function() { return __webpack_exec__("(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=D%3A%5Cstudy%5Cnext_udemy%5CAppRouter%5C02-starting-project%5Cnode_modules%5Cnext%5Cdist%5Cclient%5Clink.js&server=false!"); });
 /******/ var __webpack_exports__ = __webpack_require__.O();
 /******/ _N_E = __webpack_exports__;
 /******/ }
