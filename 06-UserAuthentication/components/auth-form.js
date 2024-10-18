@@ -1,11 +1,14 @@
 'use client'
-import { signup } from '@/actions/auth-actions';
+import { auth } from '@/actions/auth-actions';
 import Link from 'next/link';
 import { useFormState } from 'react-dom';
 
 
-export default function AuthForm() {
-  const [formState, formAction] = useFormState(signup, {});
+export default function AuthForm({mode}) { // 로그인 또는 회원가입 문자열
+
+  // bind() 첫번째 인자를 mode로 고정한 새로운 함수 반환
+  const [formState, formAction] = useFormState(auth.bind(null, mode), {});
+
     // [현재 상태, 폼 제출시 호출되는 함수] (폼 제출 처리하는 함수, 초기상태)
   return (
     <form id="auth-form" action={formAction}>
@@ -30,14 +33,15 @@ export default function AuthForm() {
       {/* 키 목록 배열 변환 */}
       <p>
         <button type="submit">
-          Create Account
+        {mode === 'login' ? 'Login' : 'Create Account'}
         </button>
       </p>
       <p>
 
       </p>
       <p>
-        <Link href="/">Login with existing account.</Link>
+        {mode === 'login' && <Link href="/?mode=signup">Create an account.</Link>}
+        {mode === 'signup' && <Link href="/?mode=login">Login with existing account.</Link>}
       </p>
     </form>
   );
