@@ -1,21 +1,37 @@
 import { useRouter } from 'next/router';
 import { getEventById } from '../../../dummy-data';
-import Image from 'next/image';
+import { Fragment } from 'react';
+import EventSummary from '../../../components/event-detail/event-summary';
+import EventLogistics from '../../../components/event-detail/event-logistics';
+import EventContent from '../../../components/event-detail/event-content';
+import ErrorAlert from '../../../components/ui/error-alert';
 
 export default function EventDetailPage() {
   const router = useRouter();
   const { id } = router.query;
   const event = getEventById(id);
-  console.log(event);
+
+  if (!event) {
+    return (
+      <>
+        <ErrorAlert>
+          <p>Event not Found !</p>
+        </ErrorAlert>
+      </>
+    );
+  }
   return (
-    <div>
-      <h1>This is {event.title} Page</h1>
-      <Image
-        alt="title"
-        src={`/${event.image}`}
-        width={210} // 가로 비율
-        height={210} // 세로 비율
+    <Fragment>
+      <EventSummary title={event.title} />
+      <EventLogistics
+        date={event.date}
+        address={event.location}
+        image={event.image}
+        imageAlt={event.title}
       />
-    </div>
+      <EventContent>
+        <p>{event.description}</p>
+      </EventContent>
+    </Fragment>
   );
 }
