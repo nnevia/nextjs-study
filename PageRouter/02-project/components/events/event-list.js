@@ -1,4 +1,4 @@
-import { getFeaturedEvents } from '../../dummy-data';
+import { getFeaturedEvents } from '../../helpers/api-util';
 import EventItem from './event-item';
 import classes from './event-list.module.css';
 export default function EventList(props) {
